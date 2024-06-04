@@ -125,6 +125,39 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &14544970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 14544971}
+  m_Layer: 0
+  m_Name: PC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &14544971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14544970}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7216176742686727152}
+  - {fileID: 681166824}
+  m_Father: {fileID: 381261740}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &159457899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -137,6 +170,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -374,7 +412,7 @@ PrefabInstance:
     - target: {fileID: 2414042306140073745, guid: 6dea18413a7e74f80b62fa849c34cff8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 129.655
+      value: 129.52
       objectReference: {fileID: 0}
     - target: {fileID: 2414042306140073745, guid: 6dea18413a7e74f80b62fa849c34cff8,
         type: 3}
@@ -421,6 +459,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PottedGrass_Model (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6711815605992925072, guid: 6dea18413a7e74f80b62fa849c34cff8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -444,6 +487,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -652,6 +700,7 @@ Transform:
   - {fileID: 546825270}
   - {fileID: 548679042}
   - {fileID: 1076091569}
+  - {fileID: 14544971}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &404409695
@@ -684,6 +733,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5362006667158415972}
+  - {fileID: 791784516}
+  - {fileID: 838384798}
+  - {fileID: 1747003540}
+  - {fileID: 2084258852}
   m_Father: {fileID: 381261740}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &440592849
@@ -698,6 +751,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Table_Model (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734194766466919475, guid: 4e42708460fac4f1eb514577953dc8a3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5584796915675725761, guid: 4e42708460fac4f1eb514577953dc8a3,
         type: 3}
@@ -787,6 +845,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519084412075262670, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6318770235540998991, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
         type: 3}
@@ -1085,6 +1148,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MedicalRecord_Model (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1260,6 +1328,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MedicalRecord_Model
       objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1410,6 +1483,85 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e154b8c01fef041b186d76089bdefed2, type: 3}
+--- !u!1001 &681166823
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 14544971}
+    m_Modifications:
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 56.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 129.8375
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -300.2875
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9925511
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.12182962
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 13.995
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186921504211981647, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_Name
+      value: PCMouse_Model (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186921504211981647, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 653ef0276b09943c3b33882e884427b1, type: 3}
+--- !u!4 &681166824 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 681166823}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &700156269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1422,6 +1574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519084412075262670, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6318770235540998991, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
         type: 3}
@@ -1582,6 +1739,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -1745,6 +1907,100 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 722123386}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &791784515
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 404409696}
+    m_Modifications:
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -292.77734
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.523804
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -540.1048
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786017972940456913, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_Name
+      value: Medkit_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786017972940456913, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c4c504e5203f48eabc2b7b62b7b6609, type: 3}
+--- !u!4 &791784516 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+    type: 3}
+  m_PrefabInstance: {fileID: 791784515}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &796316001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1803,6 +2059,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519084412075262670, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6318770235540998991, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
         type: 3}
@@ -1880,6 +2141,100 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 806075489}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &838384797
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 404409696}
+    m_Modifications:
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -291.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -540.1048
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.14999545
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.98868674
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 162.747
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786017972940456913, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_Name
+      value: Medkit_Model (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786017972940456913, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c4c504e5203f48eabc2b7b62b7b6609, type: 3}
+--- !u!4 &838384798 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+    type: 3}
+  m_PrefabInstance: {fileID: 838384797}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &867495504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1911,7 +2266,7 @@ PrefabInstance:
     - target: {fileID: 2414042306140073745, guid: 6dea18413a7e74f80b62fa849c34cff8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 129.655
+      value: 129.59
       objectReference: {fileID: 0}
     - target: {fileID: 2414042306140073745, guid: 6dea18413a7e74f80b62fa849c34cff8,
         type: 3}
@@ -1957,6 +2312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PottedGrass_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711815605992925072, guid: 6dea18413a7e74f80b62fa849c34cff8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2024,6 +2384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519084412075262670, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6318770235540998991, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
         type: 3}
@@ -2113,6 +2478,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519084412075262670, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6318770235540998991, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
         type: 3}
@@ -2268,6 +2638,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PottedPalm_Model (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7973327429641229460, guid: 6344a319b85fb4615b084a9395f50a7a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2291,6 +2666,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -2466,6 +2846,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -2678,6 +3063,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1519084412075262670, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6318770235540998991, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2767,6 +3157,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1519084412075262670, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6318770235540998991, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2855,6 +3250,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -3030,6 +3430,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519084412075262670, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6318770235540998991, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
         type: 3}
@@ -3219,6 +3624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PottedPalm_Model (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7973327429641229460, guid: 6344a319b85fb4615b084a9395f50a7a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3256,17 +3666,17 @@ PrefabInstance:
     - target: {fileID: 2414042306140073745, guid: 6dea18413a7e74f80b62fa849c34cff8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 66.8925
+      value: 67.31
       objectReference: {fileID: 0}
     - target: {fileID: 2414042306140073745, guid: 6dea18413a7e74f80b62fa849c34cff8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 129.655
+      value: 129.51
       objectReference: {fileID: 0}
     - target: {fileID: 2414042306140073745, guid: 6dea18413a7e74f80b62fa849c34cff8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -299.69376
+      value: -299.63
       objectReference: {fileID: 0}
     - target: {fileID: 2414042306140073745, guid: 6dea18413a7e74f80b62fa849c34cff8,
         type: 3}
@@ -3308,6 +3718,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PottedGrass_Model (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6711815605992925072, guid: 6dea18413a7e74f80b62fa849c34cff8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3331,6 +3746,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -3572,6 +3992,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PottedPalm_Model (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7973327429641229460, guid: 6344a319b85fb4615b084a9395f50a7a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3595,6 +4020,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -3770,6 +4200,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -3958,6 +4393,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MedicalRecord_Model (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4132,6 +4572,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -4373,6 +4818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PottedGrass_Model (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6711815605992925072, guid: 6dea18413a7e74f80b62fa849c34cff8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4396,6 +4846,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -4637,6 +5092,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PottedGrass_Model (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6711815605992925072, guid: 6dea18413a7e74f80b62fa849c34cff8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4660,6 +5120,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -5510,6 +5975,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MedicalRecord_Model (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5672,6 +6142,100 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1568014926}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1747003539
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 404409696}
+    m_Modifications:
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -291.23987
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.523804
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -540.1048
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786017972940456913, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_Name
+      value: Medkit_Model (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786017972940456913, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c4c504e5203f48eabc2b7b62b7b6609, type: 3}
+--- !u!4 &1747003540 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+    type: 3}
+  m_PrefabInstance: {fileID: 1747003539}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1782919936
 GameObject:
   m_ObjectHideFlags: 0
@@ -5720,6 +6284,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -5896,6 +6465,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MedicalRecord_Model (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6070,6 +6644,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -6246,6 +6825,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1519084412075262670, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6318770235540998991, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -6334,6 +6918,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -6757,6 +7346,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MedicalRecord_Model (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6931,6 +7525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -7107,6 +7706,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair
       objectReference: {fileID: 0}
+    - target: {fileID: 1519084412075262670, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6318770235540998991, guid: ae57f7dd27bcd44f9b026eafd0d459ac,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -7195,6 +7799,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -7371,6 +7980,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table_Model (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1734194766466919475, guid: 4e42708460fac4f1eb514577953dc8a3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 5584796915675725761, guid: 4e42708460fac4f1eb514577953dc8a3,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -7453,6 +8067,100 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2094889234}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2084258851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 404409696}
+    m_Modifications:
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -289.63986
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.523804
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -540.1048
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786017972940456913, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_Name
+      value: Medkit_Model (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786017972940456913, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c4c504e5203f48eabc2b7b62b7b6609, type: 3}
+--- !u!4 &2084258852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1020910387835040777, guid: 3c4c504e5203f48eabc2b7b62b7b6609,
+    type: 3}
+  m_PrefabInstance: {fileID: 2084258851}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2091538256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7465,6 +8173,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MedicalRecord_Model (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91902020627669677, guid: e154b8c01fef041b186d76089bdefed2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1225048399504391252, guid: e154b8c01fef041b186d76089bdefed2,
         type: 3}
@@ -8448,6 +9161,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PottedPalm_Model (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7973327429641229460, guid: 6344a319b85fb4615b084a9395f50a7a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8537,6 +9255,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 7075846840185828059, guid: 9fe8453da214d438dae735a0f18c3a9e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 9050005422293834727, guid: 9fe8453da214d438dae735a0f18c3a9e,
         type: 3}
       propertyPath: m_IsKinematic
@@ -8620,6 +9343,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Counter
       objectReference: {fileID: 0}
+    - target: {fileID: 6304698135632759963, guid: 0f6e8acf92f704bb0affc172d44c11ae,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8649,6 +9377,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoomBounds_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 2117462113712254562, guid: dd97a8357066247598976200338d46b9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4079154588353623041, guid: dd97a8357066247598976200338d46b9,
         type: 3}
@@ -8705,6 +9438,79 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd97a8357066247598976200338d46b9, type: 3}
+--- !u!1001 &3637760381648701425
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 14544971}
+    m_Modifications:
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 69.54375
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 129.8375
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -300.2875
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186921504211981647, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_Name
+      value: PCMouse_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186921504211981647, guid: 653ef0276b09943c3b33882e884427b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 653ef0276b09943c3b33882e884427b1, type: 3}
 --- !u!1001 &3663075985327931001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8767,6 +9573,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shelf_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087737737663101789, guid: a218b2fae21534cd7acc829191273f14,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1337264714032670249, guid: a218b2fae21534cd7acc829191273f14,
         type: 3}
@@ -8867,6 +9678,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PottedPalm_Model
       objectReference: {fileID: 0}
+    - target: {fileID: 7973327429641229460, guid: 6344a319b85fb4615b084a9395f50a7a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8896,6 +9712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cabinet01_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060162556536400105, guid: 1aeee293188284dbc84473dbc2a43a9c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7378688489443465527, guid: 1aeee293188284dbc84473dbc2a43a9c,
         type: 3}
@@ -8964,6 +9785,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4111900509145798288}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &7216176742686727152 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7546699857335670752, guid: 653ef0276b09943c3b33882e884427b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 3637760381648701425}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7226579803162603879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8976,6 +9803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cabinet04_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942640409020939219, guid: 0e0f871d7945b401b9f511d7740832fe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5964196772997880235, guid: 0e0f871d7945b401b9f511d7740832fe,
         type: 3}
@@ -9044,6 +9876,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cabinet03_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073860906289294816, guid: ec4d500d87d6949e2a4ce38f76deefea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7737717198373766714, guid: ec4d500d87d6949e2a4ce38f76deefea,
         type: 3}
@@ -9174,6 +10011,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cabinet02_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 947673055132571970, guid: 20ab340854eab4d4da3e4f8fe285650c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
