@@ -9,4 +9,9 @@ public class GoToMain : MonoBehaviour
   {
     SceneManager.LoadScene("Starting Room");
   }
+
+  public void ViewMedicalRecord()
+  {
+    SceneManager.LoadScene("Medical Record");
+  }
 }
