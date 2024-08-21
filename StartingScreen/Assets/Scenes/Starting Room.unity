@@ -15028,6 +15028,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8851224087356764121}
+    - targetCorrespondingSourceObject: {fileID: 7075846840185828059, guid: 9fe8453da214d438dae735a0f18c3a9e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8851224087356764122}
   m_SourcePrefab: {fileID: 100100000, guid: 9fe8453da214d438dae735a0f18c3a9e, type: 3}
 --- !u!4 &681237399533018243 stripped
 Transform:
@@ -16130,7 +16134,19 @@ MonoBehaviour:
       m_Calls: []
   m_Activated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8851224087356764122}
+        m_TargetAssemblyTypeName: GoToMain, Assembly-CSharp
+        m_MethodName: QuitApplication
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -16164,6 +16180,18 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8851224087356764122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921824222693395796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a794666c9d0944b21b8abbcfcb8b6181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

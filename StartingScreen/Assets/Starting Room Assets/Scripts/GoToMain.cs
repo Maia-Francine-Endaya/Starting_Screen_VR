@@ -14,4 +14,9 @@ public class GoToMain : MonoBehaviour
   {
     SceneManager.LoadScene("Medical Record");
   }
+
+  public void QuitApplication()
+  {
+    Application.Quit();
+  }
 }
