@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Starting Room.unity
     guid: 49d06f1a7211a47bda090ce55ea75996
+  - enabled: 1
+    path: Assets/Scenes/Medical Record.unity
+    guid: 73e2faa90844e49aaaba326ed36965da
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 396af156e74cf4f9ebe87b51a26e611e,
       type: 2}
