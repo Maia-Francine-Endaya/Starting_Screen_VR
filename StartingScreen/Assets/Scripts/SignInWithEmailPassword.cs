@@ -26,7 +26,7 @@ namespace com.example
     {
       _doSignIn = true;
       //TO DO: FIX SO THAT ONLY VERIFIED USERS CAN LOGIN
-      SceneManager.LoadScene("Starting Screen");
+      SceneManager.LoadScene("Starting Room");
 
     }
 
