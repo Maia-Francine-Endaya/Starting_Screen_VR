@@ -1,15 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class setText : MonoBehaviour
 {
-  public Text name;
-  public Text status;
-  public Text schedule;
-  public Text physician;
+  public TextMeshProUGUI name;
+  public TextMeshProUGUI status;
+  public TextMeshProUGUI schedule;
+  public TextMeshProUGUI physician;
 
 
   void Start()
