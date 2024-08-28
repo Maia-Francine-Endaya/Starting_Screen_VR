@@ -123,45 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &13316902 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5779298653426385096, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1089183328}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &13316904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13316902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb247eb91234b49778eeab94cbb3eeab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  informationTabs:
-  - {fileID: 846298835}
-  - {fileID: 746969632}
-  - {fileID: 1109286323}
-  - {fileID: 468811541}
-  - {fileID: 567985344}
-  - {fileID: 2066878753}
-  - {fileID: 1183737238}
-  - {fileID: 199729265}
---- !u!1 &199729265 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 668148082781928049, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1089183328}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &468811541 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2217296447517975493, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1089183328}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &493982025
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,12 +291,6 @@ Transform:
   - {fileID: 2063223011}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &567985344 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7247777909961771102, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1089183328}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &640687589
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,12 +378,6 @@ MonoBehaviour:
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
   m_CancelButton: Cancel
---- !u!1 &746969632 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9065960203021397334, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1089183328}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &833634493
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,12 +496,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!1 &846298835 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8615609333931266186, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1089183328}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1083641988
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,235 +542,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1089183328
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 131619465133912550, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 13316904}
-    - target: {fileID: 131619465133912550, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TurnOnTabs
-      objectReference: {fileID: 0}
-    - target: {fileID: 131619465133912550, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InfoTabScript, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2410807876789199916, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 13316904}
-    - target: {fileID: 2410807876789199916, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TurnOnTabs
-      objectReference: {fileID: 0}
-    - target: {fileID: 2410807876789199916, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InfoTabScript, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2480792453454285765, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 13316904}
-    - target: {fileID: 2480792453454285765, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TurnOnTabs
-      objectReference: {fileID: 0}
-    - target: {fileID: 2480792453454285765, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InfoTabScript, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2845285868631458304, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 13316904}
-    - target: {fileID: 2845285868631458304, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TurnOnTabs
-      objectReference: {fileID: 0}
-    - target: {fileID: 2845285868631458304, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InfoTabScript, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.00090000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.00090000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.00090000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.682
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.533
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -7.542
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478476133672502151, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5068606361351614545, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 13316904}
-    - target: {fileID: 5068606361351614545, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TurnOnTabs
-      objectReference: {fileID: 0}
-    - target: {fileID: 5068606361351614545, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InfoTabScript, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5693158362205851937, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5779298653426385096, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Name
-      value: Medical Record Prefab
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385414989064679682, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 13316904}
-    - target: {fileID: 6385414989064679682, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TurnOnTabs
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385414989064679682, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InfoTabScript, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6757124333340589753, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 13316904}
-    - target: {fileID: 6757124333340589753, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TurnOnTabs
-      objectReference: {fileID: 0}
-    - target: {fileID: 6757124333340589753, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InfoTabScript, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8372768012446023692, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 13316904}
-    - target: {fileID: 8372768012446023692, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TurnOnTabs
-      objectReference: {fileID: 0}
-    - target: {fileID: 8372768012446023692, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InfoTabScript, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8615609333931266186, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5779298653426385096, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 13316904}
-  m_SourcePrefab: {fileID: 100100000, guid: 792c0cf72f5d94185a72b5bdaea5e0b5, type: 3}
---- !u!1 &1109286323 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3147250280599619082, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1089183328}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1183737238 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2472975736800746613, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1089183328}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1362887840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2605,12 +2319,6 @@ Transform:
   - {fileID: 1858649248}
   m_Father: {fileID: 493982032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2066878753 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5693158362205851937, guid: 792c0cf72f5d94185a72b5bdaea5e0b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1089183328}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2619,4 +2327,3 @@ SceneRoots:
   - {fileID: 640687592}
   - {fileID: 1083641990}
   - {fileID: 493982032}
-  - {fileID: 1089183328}
