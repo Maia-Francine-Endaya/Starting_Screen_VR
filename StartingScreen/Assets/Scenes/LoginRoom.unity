@@ -1608,7 +1608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11425326, guid: c4e389e44d96da64ea974ab237ce1a9a, type: 3}
       propertyPath: buttonFunction
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11425864, guid: c4e389e44d96da64ea974ab237ce1a9a, type: 3}
       propertyPath: m_Color.b
@@ -1676,7 +1676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11431046, guid: c4e389e44d96da64ea974ab237ce1a9a, type: 3}
       propertyPath: buttonFunction
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11431780, guid: c4e389e44d96da64ea974ab237ce1a9a, type: 3}
       propertyPath: m_Color.b
@@ -1772,7 +1772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11443506, guid: c4e389e44d96da64ea974ab237ce1a9a, type: 3}
       propertyPath: buttonFunction
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11446998, guid: c4e389e44d96da64ea974ab237ce1a9a, type: 3}
       propertyPath: m_Color.b
@@ -2444,7 +2444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11485548, guid: c4e389e44d96da64ea974ab237ce1a9a, type: 3}
       propertyPath: buttonFunction
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11485700, guid: c4e389e44d96da64ea974ab237ce1a9a, type: 3}
       propertyPath: m_Color.b
@@ -3758,46 +3758,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae57f7dd27bcd44f9b026eafd0d459ac, type: 3}
---- !u!21 &817943431
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/RoundedCorners/RoundedCorners
-  m_Shader: {fileID: 4800000, guid: 0bd2ec5d73751e34a814274a454bec41, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _OuterUV: {r: 0, g: 0, b: 1, a: 1}
-    - _WidthHeightRadius: {r: 230, g: 160, b: 8, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &908463583
 GameObject:
   m_ObjectHideFlags: 0
@@ -5793,6 +5753,46 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae57f7dd27bcd44f9b026eafd0d459ac, type: 3}
+--- !u!21 &2084941407
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/RoundedCorners/RoundedCorners
+  m_Shader: {fileID: 4800000, guid: 0bd2ec5d73751e34a814274a454bec41, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _OuterUV: {r: 0, g: 0, b: 1, a: 1}
+    - _WidthHeightRadius: {r: 230, g: 160, b: 8, a: 0}
+  m_BuildTextureStacks: []
 --- !u!4 &353253739491233127
 Transform:
   m_ObjectHideFlags: 0
